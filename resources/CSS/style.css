@@ -2,6 +2,8 @@ body {
   background-color: black;
 }
 
+/*Header*/
+
 header {
   display: flex;
   align-items: center;
@@ -36,7 +38,7 @@ nav span {
   text-decoration: underline;
 }
 
-/* END NAV  */
+/* Middle Section */
 
 
 .flex-container{
@@ -56,17 +58,13 @@ nav span {
 
 }
 
-
 .top-flex{
   display: flex;
   align-items: center;
-
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   width: 1200px;
   height: 700px;
-
 }
-
 
 .middle-flex{
   display: flex;
@@ -75,7 +73,6 @@ nav span {
   margin-top: 50px;
   justify-content: center;
   align-content: space-around;
-
 }
 
 .middle-section {
@@ -102,4 +99,35 @@ nav span {
 
 .thumbnails h4 {
   margin-top: 10px;
+}
+
+/*End Section*/
+
+.bottom-flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin: 90px 10px;
+  width: 1200px;
+  height: 600px;
+  justify-content: center;
+
+}
+
+.locations {
+  text-align: center;
+  width: 100%;
+}
+
+.box {
+  background-color: black;
+  width:300px;
+  height: 300px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+p {
+  text-align: center;
 }
